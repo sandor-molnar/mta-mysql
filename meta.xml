@@ -1,0 +1,15 @@
+<meta>
+	<script src="utils/Class.class.lua" type="shared" version="1.0" />
+	<script src="utils/Object.class.lua" type="shared" version="0.0.1" />
+
+	<script src="Database.class.lua" type="server" />
+	<script src="db.s.lua" type="server" />
+	<export function="DBGetDatabase" type="server" />
+	<export function="DBQuery" type="server" />
+	<export function="DBGetHandler" type="server" />
+	<export function="DBPollQuery" type="server" />
+	<export function="DBExec" type="server" />
+	<export function="DBFree" type="server" />
+	<export function="DBPollQuery" type="server" />
+	<export function="DBEscape" type="server" />
+</meta>
